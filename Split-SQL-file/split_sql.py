@@ -1,6 +1,6 @@
 import os
 
-def split_sql_file(input_file, lines_per_file=30000):
+def split_sql_file(input_file, lines_per_file=35000):
     with open(input_file, 'r') as f:
         sql_content = f.readlines()
 
